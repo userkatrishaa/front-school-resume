@@ -2,43 +2,109 @@
 <html lang="ru">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Резюме для фронт-школы</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 
 <body>
-  <div id="logo-img">
-    <img src="logo.png" alt="Логотип">
-  </div>
-  <div id="content">
-    <div id="left">
-      <div id="left-picture">
-        <div id="photo"></div>
+  <header>
+    <div class="logo-img">
+      <img src="images/logo.png" alt="Логотип">
+    </div>
+  </header>
+
+  <main>
+    <section class="left">
+      <div class="left-picture">
+        <div class="photo"></div>
       </div>
-      <div id="left-about">
-        <div id="arrow">
-          <img src="arrow.png" alt="Стрелочка">
+      <div class="left-about">
+        <div class="arrow">
+          <img src="images/arrow-up.svg" alt="Стрелочка вверх">
         </div>
-        <div id="text">
+        <div class="text">
           <div class="name">
-           <h1>Бордюжа Екатерина</h1>
-           <p>20 лет, Воронеж</p>
+            <h1 class="htag-h1">Бордюжа Екатерина</h1>
+            <p class="name-about">20 лет, Воронеж</p>
           </div>
           <div class="contacts">
-            <p>+7 951 561 26 32</p>
-            <p>katrinlove23@gmail.com</p>
-            <p>jjluve</p>
-            <p>https://github.com/userkatrishaa</p>
+            <div class="contacts-column">
+              <img class="contacts-image" src="images/phone-call.svg" alt="Телефон">
+              <p class="contacts-about">+7 951 561 26 32</p>
+            </div>
+            <div class="contacts-column">
+              <img class="contacts-image" src="images/mail.svg" alt="Почта">
+              <p class="contacts-about">katrinlove23@gmail.com</p>
+            </div>
+            <div class="contacts-column">
+              <img class="contacts-image" src="images/telegram.svg" alt="Телеграм">
+              <p class="contacts-about">jjluve</p>
+            </div>
+            <div class="contacts-column">
+              <img class="contacts-image" src="images/github.svg" alt="Гитхаб">
+              <p class="contacts-about"><a href="https://github.com/userkatrishaa">https://github.com/userkatrishaa</a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div id="right">
-      <h2>Правый блок</h2>
-      <p>Содержимое правого блока...</p>
-      <p>Этот блок больше левого блока.</p>
-    </div>
-  </div>
+    </section>
+
+    <section class="right">
+      <article class="article">
+        <p class="article-text">Привет! Я обучаюсь на факультете компьютерных наук по специальности "Информационные
+          системы и технологии" и хочу с большим интересом и
+          стремлением попробовать
+          себя в роли frontend-разработчика. Обладаю знаниями в HTML, CSS, JavaScript, TypeScript, а также работала с
+          библиотекой React
+          и фреймворком Next.js. Разработала веб-приложение для управления личным и совместным бюджетом. Готова
+          продолжать
+          развивать навыки в данной области и вносить активный вклад в команду профессионалов.
+        </p>
+      </article>
+      <div class="right-info">
+        <div class="info">
+          <div class="education" aria-labelledby="education-heading">
+            <h2 id="education-heading" class="htag-h2">Образование</h2>
+            <div class="container">
+              <span class="caption">Воронежский Государственный Университет</span>
+              <p class="description">Информационные системы и технологии</p>
+              <p class="description">2020-по настоящее время</p>
+            </div>
+          </div>
+          <div class="divider-first"></div>
+          <div class="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading" class="htag-h2">Проекты</h2>
+            <div class="container-projects">
+              <span class="caption">Веб-приложение для мониторинга бюджета</span>
+              <p class="description">Разрабатывала клиентскую часть приложения и занималась написанием документации</p>
+              <p class="description">2023</p>
+            </div>
+          </div>
+          <div class="divider-second"></div>
+          <div class="skills" aria-labelledby="skills-heading">
+            <h2 id="skills-heading" class="htag-h2">Навыки</h2>
+            <div class="container-skills">
+              <p class="skills-title">HTML</p>
+              <p class="skills-title">CSS</p>
+              <p class="skills-title">JavaScript</p>
+              <p class="skills-title">TypeScript</p>
+              <p class="skills-title">React</p>
+              <p class="skills-title">Next.js</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-border">
+          <div class="bg">
+            <img class="arrow-down" src="images/arrow-down.svg" alt="Стрелочка вниз">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
