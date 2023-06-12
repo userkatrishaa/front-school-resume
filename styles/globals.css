@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Redcollar";
   src: url("//db.onlinewebfonts.com/t/f02cf2e6e27a17bcfe9efa18c041c208.eot");
   src: url("//db.onlinewebfonts.com/t/f02cf2e6e27a17bcfe9efa18c041c208.eot?#iefix") format("embedded-opentype"),
@@ -8,9 +8,27 @@
     url("//db.onlinewebfonts.com/t/f02cf2e6e27a17bcfe9efa18c041c208.svg#Redcollar") format("svg");
   font-style: normal;
   font-weight: 400;
+} */
+
+@font-face {
+  font-family: "Redcollar";
+  src: url("../fonts/Redcollar.woff2") format("woff2"),
+    url("../fonts/Redcollar.woff") format("woff"),
+    url("../fonts/Redcollar.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
 }
 
 @font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TT_Commons_Regular.woff2") format("woff2"),
+    url("../fonts/TT_Commons_Regular.woff") format("woff"),
+    url("../fonts/TT_Commons_Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* @font-face {
   font-family: "TT Commons";
   src: url("//db.onlinewebfonts.com/t/791b34a71c48acc600f240e9fdb57fb6.eot");
   src: url("//db.onlinewebfonts.com/t/791b34a71c48acc600f240e9fdb57fb6.eot?#iefix") format("embedded-opentype"),
@@ -20,7 +38,7 @@
     url("//db.onlinewebfonts.com/t/791b34a71c48acc600f240e9fdb57fb6.svg#TT Commons") format("svg");
   font-style: normal;
   font-weight: 400;
-}
+} */
 
 :root {
   --main-color: black;
