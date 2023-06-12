@@ -5,12 +5,12 @@
 
 ## Документация
 
-- [Сопроводительное письмо]()
+- [Сопроводительное письмо](documentation/Covering_letter.pdf)
 - [Требования к верстке](documentation/Requirements.pdf)
-- [Скриншоты работы]()
+- [Итоги работы](documentation/Results_of_work.pdf)
 
 #### Версии в формате .docx
 
-- [Сопроводительное письмо]()
+- [Сопроводительное письмо](documentation/Covering_letter.docx)
 - [Требования к верстке](documentation/Requirements.docx)
-- [Скриншоты работы]()
+- [Итоги работы](documentation/Results_of_work.docx)
